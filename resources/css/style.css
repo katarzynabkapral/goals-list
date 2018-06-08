@@ -37,11 +37,11 @@ html{
 		display: flex;
 		flex-direction: column;
 	}
-	.panel1 { background-image:url(images/study.jpeg);  }
-    .panel2 { background-image:url(images/travel.jpeg); }
-    .panel3 { background-image:url(images/work.jpg); }
-    .panel4 { background-image:url(images/photographer.jpg); }
-    .panel5 { background-image:url(images/fit.jpeg); }
+	.panel1 { background-image:url(../images/study.jpeg);  }
+    .panel2 { background-image:url(../images/travel.jpeg); }
+    .panel3 { background-image:url(../images/work.jpg); }
+    .panel4 { background-image:url(../images/photographer.jpg); }
+    .panel5 { background-image:url(../images/fit.jpeg); }
 
     .panel >*{
     	margin:0;
@@ -53,10 +53,11 @@ html{
     	align-items: center;
     }
 
-    .panel >* :first-child{transform: translateY(-100%);}
-    .panel.open-active >* :first-child{transform: translateY(0);}
-    .panel >* :last-child{transform: translateY(100%);}
-    .panel.open-active >* :last-child{transform: translateY(0);}
+   
+    .panel > *:first-child { transform: translateY(-100%); }
+    .panel.open.active > *:first-child { transform: translateY(0); }
+    .panel > *:last-child { transform: translateY(100%); }
+    .panel.open.active > *:last-child { transform: translateY(0); }
 
     .panel p{
     	text-transform: uppercase;
@@ -65,7 +66,7 @@ html{
       	font-size: 2em;
     }
     .panel p:nth-child(2){
-    	font-size: 4em;
+    	font-size: 3em;
     }
     .panel.open{
     	font-size: 40px;
