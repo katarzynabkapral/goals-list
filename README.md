@@ -4,4 +4,4 @@ Personal goals list as a part of JS30 challenge
 <br><br>
 <b>HTML, CSS, JavaScript</b>
 
-https://katarzynabkapral.github.io/goals-list/. 
+https://katwlodarczyk.github.io/goals-list/. 
